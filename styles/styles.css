@@ -16,18 +16,18 @@ body, html {
     font-weight: 300;
 } */
 .top-container img {
-    padding: 25px 0 25px 33px;
+    padding: 15px 0 25px 33px;
     width: 30%;
     height: auto;
 }
 
 .middle-container img {
    background-image: url(/images/hero-mobile.jpg);
-   width: 400px;
+   width: auto;
 }
 
 .bottom-container {
-    padding-top: 55px;
+    padding-top: 25px;
     text-align: center;
 }
 
