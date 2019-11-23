@@ -79,6 +79,8 @@ input[type=text] {
     box-sizing: border-box; */
   }
   input[type=image] {
+      border-radius: 25px;
+      background-color: brown;
       width: 25px;
       position: relative;
       left: 35px;
