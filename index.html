@@ -20,14 +20,26 @@
 </head>
 
 <body>
-  <div class="top-container">
+  <div class="top-container desktop-container">
     <img src="images/logo.svg" alt="logo">
   </div>
-  <div class="middle-container">
-    <img src="images/hero-mobile.jpg" alt="head_shot">
-  </div>
+  
+    <!-- <img src="images/hero-desktop.jpg" alt="Girl" class="hidden-mobile">
+    <img src="images/hero-mobile.jpg" alt="Girl Mobile" class="visible-mobile"> -->
+    <picture>
+      <source 
+        media="(min-width: 700px)"
+        srcset="images/hero-desktop.jpg">
+      <source 
+        media="(min-width: 465px)"
+        srcset="images/hero-mobile.jpg">
+      <img 
+        src="images/hero-mobile.jpg" 
+        alt="a cute kitten">
+    </picture>
 
-  <div class="bottom-container">
+
+  <div class="bottom-container desktop-container">
     <h1 id=top-headline>WE'RE</h1>
     <h1 id="middle-headline">COMING</h1>
     <h1 id="bottom-headline">SOON</h1>
@@ -37,7 +49,7 @@
   </div>
 
 
-  <div class="email-entry">
+  <div class="email-entry desktop-container">
     <form action="">
       <input type="text" value="Email Address">
       <input type="image" src="images/icon-arrow.svg" alt="submit">

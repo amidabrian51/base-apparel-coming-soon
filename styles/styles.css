@@ -21,10 +21,9 @@ body, html {
     height: auto;
 }
 
-.middle-container img {
-   background-image: url(/images/hero-mobile.jpg);
+/* .middle-container img {
    width: auto;
-}
+} */
 
 .bottom-container {
     padding-top: 25px;
@@ -93,4 +92,21 @@ input[type=text] {
   .email-entry {
       padding-top: 10px;
       padding-bottom: 10px;
+  }
+  .visible-mobile {
+      display: inline !important;
+  }
+  @media (min-width: 700px) {
+     .hidden-mobile {
+        display: inline;
+     }
+     .visible-mobile {
+         display: none !important;
+     }
+     .desktop-container {
+         display: flex;
+         flex-direction: column;
+     }
+      
+
   }
