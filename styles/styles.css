@@ -79,12 +79,16 @@ input[type=text] {
     box-sizing: border-box; */
   }
   input[type=image] {
-      border-radius: 25px;
-      background-color: brown;
-      width: 25px;
+      size: 5px;
+      border-radius: 35px;
+      background-color: hsl(0, 93%, 68%);
+      width: 45px;
+      height: 38px;
       position: relative;
-      left: 35px;
-       
+      left: 300px;
+      bottom: 43px;
+      cursor: pointer;
+
   }
   .email-entry {
       padding-top: 10px;
