@@ -97,12 +97,16 @@ input[type=text] {
       display: inline !important;
   }
   @media (min-width: 700px) {
-     .hidden-mobile {
+      
+    #main-img{
+    	background-image: url("images/hero-desktop.jpg");
+    } 
+     /* .hidden-mobile {
         display: inline;
      }
      .visible-mobile {
          display: none !important;
-     }
+     } */
      .desktop-container {
          display: flex;
          flex-direction: column;
