@@ -26,9 +26,11 @@
 
   <!-- <img src="images/hero-desktop.jpg" alt="Girl" class="hidden-mobile">
     <img src="images/hero-mobile.jpg" alt="Girl Mobile" class="visible-mobile"> -->
-  <div class="container">
-    <div id="main-img" />
-  </div>
+  <img srcset="
+    /images/hero-mobile.jpg 375w,
+    /images/hero-desktop.jpg 610w" sizes="(max-width: 375px) 375px,
+   (min-width: 700px) 700px,
+   800px" src="images/hero-desktop.jpg" alt="Woman on Screen">
 
 
   <div class="bottom-container desktop-container">

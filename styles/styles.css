@@ -97,10 +97,16 @@ input[type=text] {
       display: inline !important;
   }
   @media (min-width: 700px) {
-      
-    #main-img{
-    	background-image: url("images/hero-desktop.jpg");
-    } 
+      img[src*="hero-desktop.jpg"]{
+          position: absolute;
+          width: 50%;
+          height: 100%;
+          top: 0px;
+          right: 0px;
+      }
+    .desktop-container{
+        width: 50%;
+    }
      /* .hidden-mobile {
         display: inline;
      }
