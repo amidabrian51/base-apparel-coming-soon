@@ -93,10 +93,11 @@ input[type=text] {
       padding-top: 10px;
       padding-bottom: 10px;
   }
-  .visible-mobile {
-      display: inline !important;
-  }
+ 
   @media (min-width: 700px) {
+      body {
+          background: url(/images/bg-pattern-desktop.svg);
+      }
       img[src*="hero-desktop.jpg"]{
           position: absolute;
           width: 50%;
@@ -119,6 +120,7 @@ input[type=text] {
     }
     .desktop-container{
         width: 50%;
+        margin-left: 50px;
     }
      /* .hidden-mobile {
         display: inline;
@@ -138,11 +140,46 @@ input[type=text] {
         font-size: 60px;
         position: relative;
         left: 80px;
-        margin-top: 200px;
+        margin-top: 150px;
         padding-bottom: 20px;
         text-align: left;
         letter-spacing: 45px;
      }
      
+     .shoppers-class {
+         display: inline-block;
+         width: fit-content;
+         text-align: left;
+         font-size: larger;
+         
+     }
+     input[type=text] {
+        margin-left: 60px;
+        border-radius: 35px;
+        background-color: transparent;
+        width: 550px;
+        height: 30px;
+        border: 2px solid hsl(0, 36%, 70%);
+        color:hsl(0, 36%, 70%);
+        padding: 15px 15px;
+        text-align: left;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 50px 35px;
+        cursor: pointer;
+     }
+     input[type=image] {
+        size: 5px;
+        border-radius: 55px;
+        background-color: hsl(0, 93%, 68%);
+        width: 69px;
+        height: 59px;
+        position: absolute;
+        left: 550px;
+        bottom: 61px;
+        cursor: pointer;
+  
+    }
 
   }
