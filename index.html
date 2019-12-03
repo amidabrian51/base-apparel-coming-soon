@@ -49,9 +49,10 @@
 
 
   <div class="email-entry desktop-container">
-    <form action="">
-      <input type="text" value="" placeholder="Email Address">
-      <input type="image" value="validate" onclick="validate()" src="images/icon-arrow.svg" alt="submit">
+    <div id="a"></div>
+    <form name="form1" action="#">
+      <input id="test" type="text" name="text1" value="" placeholder="Email Address">
+      <input type="image" value="validate" onclick="ValidateEmail(document.form1.text1)" src="images/icon-arrow.svg" alt="submit">
     </form>
   </div>
   <script src="index.js" charset="utf-8"></script>
