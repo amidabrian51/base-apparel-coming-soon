@@ -5,7 +5,7 @@ function ValidateEmail(inputText) {
     document.form1.text1.focus();
     return true;
   } else {
-    document.getElementById("p").innerHTML += " this has just been added";
+    document.getElementById("addedText").innerHTML += "This is the wrong email address";
     // alert("You have entered an invalid email address!");
     document.form1.text1.focus();
     return false;
