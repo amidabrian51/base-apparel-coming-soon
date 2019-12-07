@@ -27,7 +27,7 @@
   <!-- <img src="images/hero-desktop.jpg" alt="Girl" class="hidden-mobile">
     <img src="images/hero-mobile.jpg" alt="Girl Mobile" class="visible-mobile"> -->
   <img srcset="
-    /images/hero-mobile.jpg 375w,
+    images/hero-mobile.jpg 375w,
     images/hero-desktop.jpg 610w" sizes="(max-width: 375px) 375px,
    (min-width: 700px) 700px,
    800px" src="images/hero-desktop.jpg" alt="Woman on Screen">
@@ -51,7 +51,7 @@
   <div class="email-entry desktop-container">
     <div id="a"></div>
     <form name="form1" action="#">
-      <input id="test" type="email" name="text1" value="" placeholder="Email Address" required>
+      <input id="test" type="text" name="text1" placeholder="Email Address" value="" onclick="return ValidateEmail(document.form1.text1)">
       <input type="image"  src="images/icon-arrow.svg" alt="submit">
       <p id="addedText"></p>
     </form>
