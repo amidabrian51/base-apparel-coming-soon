@@ -8,7 +8,7 @@ function ValidateEmail(inputText) {
     // var img = document.createElement('img');
     // img.src = "/images/icon-error.svg"
     document.getElementById("addedText").innerHTML += "This is the wrong email address";
-    document.getElementsByClassName("invalidEmail")
+    document.getElementById("test").classList.add("invalidEmail")
     // alert("You have entered an invalid email address!");
     document.form1.text1.focus();
     return false;

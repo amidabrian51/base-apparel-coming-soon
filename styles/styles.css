@@ -200,6 +200,13 @@ input[type=email] {
         width: 30px;
         height: 30px; 
     }
+
+    .invalidEmail {
+        border: 1px solid red;
+        background-image: url("/images/icon-error.svg");
+        background-repeat: no-repeat;
+        background-position: 75% 25%;
+      }
     /* input[type=email]:invalid {
         border: 1px solid red;
         background-image: url("/images/icon-error.svg");
