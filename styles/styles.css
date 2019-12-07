@@ -202,7 +202,7 @@ input[type=email] {
     }
 
     .invalidEmail {
-        border: 1px solid red;
+        border: 1px solid red !important;
         background-image: url("/images/icon-error.svg");
         background-repeat: no-repeat;
         background-position: 75% 25%;
