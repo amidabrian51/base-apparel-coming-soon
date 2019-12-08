@@ -60,7 +60,7 @@ body, html {
     display: flex;
     flex-direction: column;
 }
-input[type=email] {
+input[type=text] {
     border-radius: 25px;
     background-color: transparent;
     width: 275px;
