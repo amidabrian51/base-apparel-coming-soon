@@ -94,13 +94,12 @@ input[type=email] {
       padding-bottom: 10px;
   }
 
-  input[type="email"]:invalid {
-    border: 1px solid red;
+  .invalidEmail {
+    border: 1px solid red !important;
     background-image: url("/images/icon-error.svg");
     background-repeat: no-repeat;
     background-position: 75% 25%;
   }
-
   .invalidEmail {
     border: 1px solid red;
     background-image: url("/images/icon-error.svg");
